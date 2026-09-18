@@ -57,29 +57,6 @@ License tiers:
 - **Personal** — single device
 - **Team** — multiple devices, team collaboration
 
-## Building from Source
-
-This repository contains release artifacts only. To view or modify the source code, please contact the development team.
-
-Build scripts:
-
-```bash
-# Build macOS installer
-npm run dist:mac
-
-# Build Windows installer
-npm run dist:win
-
-# Build all platforms
-npm run dist
-```
-
-## Tech Stack
-
-- **Framework**: Electron + React 19
-- **Bundler**: Vite + electron-vite
-- **PDF Engine**: native local PDF engine
-- **Packager**: electron-builder
 
 ## System Requirements
 
