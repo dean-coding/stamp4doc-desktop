@@ -57,29 +57,6 @@ Stamp4Doc Desktop 为商业软件，使用许可证激活。获取许可证请�
 - **个人版** — 单设备使用
 - **团队版** — 多设备，团队协作
 
-## 开发构建
-
-本仓库为发行仓库，仅包含构建产物。如需查看或修改源代码，请联系开发团队。
-
-构建脚本：
-
-```bash
-# 构建 macOS 安装包
-npm run dist:mac
-
-# 构建 Windows 安装包
-npm run dist:win
-
-# 构建全部平台
-npm run dist
-```
-
-## 技术栈
-
-- **框架**: Electron + React 19
-- **渲染**: Vite + electron-vite
-- **PDF 处理**: 本地 PDF 引擎
-- **打包**: electron-builder
 
 ## 系统要求
 
